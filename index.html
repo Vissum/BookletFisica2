@@ -1,0 +1,1515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" defer></script>
+  <title>Proyecto de Física</title>
+</head>
+
+<body>
+  <div class="flipbook">
+    <div class="hard">
+      <p class="codystar-regular">Proyecto del Curso de Física 1</p>
+      <small>Booklet Educativo</small>
+      <small class="portada"> <img src="formula-portada.jpg" alt=""></small>
+      <small class="portada2"> <img src="https://i.ytimg.com/vi/Zr7nd2OSo4E/maxresdefault.jpg" alt=""></small>
+    </div>
+    <div class="hard"></div>
+
+
+
+    <div class="page">
+      <div class="Esquema">
+        <img src="umg.png" alt="">
+      </div>
+    </div>
+    <div class="page">
+  
+    </div>
+
+    <div class="page">
+      <div class="titulos-pag">
+        <p id="titulo-in">TRABAJO DEL PROYECTO FINAL</p>
+      </div>
+    </div>
+
+
+    <div class="page">
+  
+    </div>
+    
+
+
+    <div class="page">
+      <div class="titulos-pag">
+        <p id="titulos-pag">MEDICIONES</p>
+      </div>
+      <div class="Concepto">
+        <h3 class="titulos-pag">Concepto</h3>
+        <p>La medición es el proceso mediante el cual se asigna un número a una propiedad física de un objeto o fenómeno, en comparación con una unidad previamente definida. Las mediciones permiten cuantificar los fenómenos naturales.</p>
+      </div>
+      <div class="Esquema">
+        <img src="Esquemas/medicion.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="Formulas">
+        <h3 id="titulos-pag">Fórmulas</h3>
+        <div class="formula-item">
+          <p><b>Error Absoluto:</b> $\Delta x = |x_i - x_{\text{real}}|$</p>
+        </div>
+        <div class="formula-item">
+          <p><b>Error Relativo:</b> $E_r = \frac{\Delta x}{x_{\text{real}}} \times 100\%$</p>
+        </div>
+        <div class="formula-item">
+          <p><b>Error Porcentual:</b> $E_p = \left|\frac{x_{\text{exp}} - x_{\text{te\u00f3rico}}}{x_{\text{te\u00f3rico}}}\right| \times 100\%$</p>
+        </div>
+        <div class="formula-item">
+          <p><b>Propagación (Suma/Resta):</b> $\Delta (A \pm B) = \Delta A + \Delta B$</p>
+          <p><b>Multiplicación:</b> $E_r(A \cdot B) = E_r(A) + E_r(B)$</p>
+          <p><b>Potencia:</b> $E_r(A^n) = n \cdot E_r(A)$</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <div class="page">
+      <div class="Ejemplo">
+        <p><b>Ejemplo:</b></p>
+        <br>
+        <img src="Ejemplos/ejemplo-medicion.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="video-ejemplo">
+        <h3 id="titulos-pag">Video de Ejemplo</h3>
+        <p>Explicación por Adrián Pedraza en su canal de Youtube - El Traductor de Ingeniería. En el también muestra un fragmento de la explicación por parte de la Licda. María Inés Baragatti.</p>
+        <iframe src="https://www.youtube.com/embed/HD0Hv9A3md4?si=qIkh9W7cBt6DDAix&amp;start=620" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="Ejercicio">
+          <h3>Ejercicio Propuesto</h3>
+          <p>Se mide una mesa y se obtiene un valor de 1.98 m, siendo el valor real 2.00 m.</p>
+          <p><b>Solución:</b> El valor absoluto es $|\Delta x| = |1.98 - 2.00| = 0.02$ m. <br> El error relativo es: $E_r = \frac{0.02}{2.00} \times 100\% = 1\%$</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="titulos-pag">
+        <p id="titulos-pag">VECTORES</p>
+      </div>
+      <div class="Concepto">
+        <h3 class="titulos-pag">Concepto</h3>
+        <p>Un vector es una cantidad física que tiene tanto magnitud como dirección. Para medir desde la posición de un carro, hasta una partícula en el espacio.</p>
+      </div>
+      <p>$\vec{v} = \langle v_x, v_y \rangle$</p>
+      <div class="Esquema">
+        <img src="Esquemas/vectores.png" alt="">
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="Formulas">
+        <h3 id="titulos-pag">Fórmulas</h3>
+        <div class="formula-item">
+          <p><b>Vector en forma cartesiana:</b> $\vec{v} = \langle x, y \rangle$</p>
+        </div>
+        <div class="formula-item">
+          <p><b>Módulo:</b> $|\vec{v}| = \sqrt{x^2 + y^2}$</p>
+        </div>
+        <div class="formula-item">
+          <p><b>Ángulo:</b> $\theta = \tan^{-1} \left( \frac{y}{x} \right)$</p>
+        </div>
+        <div class="formula-item">
+          <p><b>Suma:</b> $\vec{a} + \vec{b} = \langle a_x + b_x, a_y + b_y \rangle$</p>
+        </div>
+        <div class="formula-item">
+          <p><b>Producto punto:</b> $\vec{a} \cdot \vec{b} = a_x b_x + a_y b_y$</p>
+        </div>
+        <div class="formula-item">
+          <p><b>Ángulo entre vectores:</b> $\cos(\theta) = \frac{\vec{a} \cdot \vec{b}}{|\vec{a}||\vec{b}|}$</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="Ejemplo">
+        <p><b>Ejemplo:</b> 
+          <br>Un vector con su dirección y resultante, ambos representados en una gráfica.</p>
+        <br>
+        <img src="Ejemplos/ejemplo-vector.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="video-ejemplo">
+        <h3 id="titulos-pag">Video de Ejemplo</h3>
+        <p>Explicación por Explicación tomada de khanacademy.org, dando una introducción a los vectores y a escalares.</p>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/qBkAMdMq-Z0?si=XFFdvOfJjtLa0Tvf&amp;start=620"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+        <div class="Ejercicio">
+          <h3>Ejercicio Propuesto</h3>
+          <p>Dado los vectores \( A = (3, -2) \) y \( B = (-1, 4) \), calcula:</p>
+          <ul>
+            <li>La suma de los vectores \( A + B \)</li>
+            <li>El producto escalar \( A \cdot B \)</li>
+            <li>La magnitud del vector \( A \), es decir \( |A| \)</li>
+          </ul>
+          <p><b>Solución:</b>\(A + B  = (3 + (-1), -2 + 4) = (2, 2).\)
+
+            \(A · B = (3)(-1) + (-2)(4) = -3 - 8 = -11.\)
+            
+            \(|A| = √(3² + (-2)²) = √(9 + 4) = √13.\) </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="titulos-pag">
+        <p id="titulos-pag">SUMA DE VECTORES POR MÉTODO GRÁFICO</p>
+      </div>
+      <div class="Concepto">
+        <h3 class="titulos-pag">Concepto</h3>
+        <p>Este método consiste en trasladar vectores de manera que el final de uno coincida con el inicio del siguiente, obteniendo la resultante desde el origen del primero hasta el final del último.</p>
+      </div>
+      <div class="Esquema">
+        <img src="Esquemas/vectores-grafico.png" alt="">
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="Formulas">
+        <h3 id="titulos-pag">Fórmulas</h3>
+        <p>No hay una fórmula específica utilizamos una regla, un transportador y dependiendo del método, si es por paralelogramo, como su nombre lo indica dibujamos una figura paralela al ángulo, formando un trapezoide, si es por polígono trazaremos una línea seguida del último vértice. 
+        </p> 
+        <p><b>Por ejemplo, este paralelogramo:</b></p>
+        <br>
+        <div style="text-align: center;">
+          <img  width src="Ejemplos/paralelogamo-ejemplo.png" alt="" >
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="Ejemplo">
+        <p><b>Ejemplo</b><br>Representación de la suma de un vector obteniendo su resultante por el <u>método del polígono.</u></p>
+        <br>
+        <img src="Ejemplos/ejemplo-grafico.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="video-ejemplo">
+        <h3 id="titulos-pag">Video de Ejemplo</h3>
+        <p>En el siguiente fragmento tenemos un análisis detallado por parte de khanacademy.org sobre método gráfico.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nSf_aZM3iOA?si=WZ6SK4C8Ze3kOtn3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="Ejercicio">
+          <h3>Ejercicio Propuesto</h3>
+          <p>Suma Vectorial Gráfica: \(6 cm. \) al norte y \(8 cm. \) al este</p>
+         
+          <p><b>Solución:</b> la magnitud es \(10 cm. \). mientras que la dirección: \(36.87° \) al norte del este (o 53.13° al este del norte, según la referencia).</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="titulos-pag">
+        <p id="titulos-pag">SUMA DE VECTORES POR MÉTODO ANALÍTICO</p>
+      </div>
+      <div class="Concepto">
+        <h3 class="titulos-pag">Concepto</h3>
+        <p>Se descomponen los vectores en componentes cartesianas y luego se suman algebráicamente.</p>
+      </div>
+      <div class="Esquema2">
+        <img src="Esquemas/vectores-analitico.png" alt="">
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="Formulas">
+        <h3 id="titulos-pag">Fórmulas</h3>
+        <div class="formula-item">
+          <p><b>Descomposición rectangular:</b> 
+            $v_x = |\vec{v}| \cos\theta$ \\
+            $v_y = |\vec{v}| \sin\theta$
+          </p>
+        </div>
+        <div class="formula-item">
+          <p><b>Suma vectorial:</b> 
+            $\vec{R} = \vec{A} + \vec{B} = (A_x + B_x)\hat{i} + (A_y + B_y)\hat{j}$
+          </p>
+        </div>
+        <div class="formula-item">
+          <p><b>Módulo del resultante:</b> 
+            $|\vec{R}| = \sqrt{R_x^2 + R_y^2}$
+          </p>
+        </div>
+        <div class="formula-item">
+          <p><b>Dirección del resultante:</b> 
+            $\theta_R = \tan^{-1}\left(\dfrac{R_y}{R_x}\right)$
+          </p>
+        </div>
+        <div class="formula-item">
+          <p><b>Notación vectorial:</b> 
+            $\vec{v} = v_x\hat{i} + v_y\hat{j} = \langle v_x, v_y \rangle$
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="page">
+      <div class="Ejemplo">
+        <p><b>Ejemplo:</b><br>Lo que podemos observar de este vector, es que está en el cuarto cuadrante y con 30° respecto a la horizontal, por lo que sus componentes serán negativos tanto para "x" como para "y".</p>
+        <br>
+        <img src="Ejemplos/ejemplo-analítico.png" alt="">
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="video-ejemplo">
+        <h3 id="titulos-pag">Video de Ejemplo</h3>
+        <p>Explicación didáctica del método analítico, cortesía del canal Fisica En Acción.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eALL0AKLjAA?si=d7HEk7I1FRyNsN2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="Ejercicio">
+          <h3>Ejercicio Propuesto</h3>
+          <p>Dados los vectores:<br>
+          \( \vec{A} = 4\, \text{N} \) Este,
+          \( \vec{B} = 3\, \text{N} \) Norte</p>
+          
+          <p>Calcular:</p>
+          <ul>
+            <li>Vector resultante \( \vec{A} + \vec{B} \)</li>
+            <li>Magnitud del resultante</li>
+          </ul>
+          
+          <p><b>Solución:</b>
+          \[ \vec{R} = (4, 3)\, \text{N} \]
+
+
+          \[ |\vec{R}| = \sqrt{4^2 + 3^2} = 5\, \text{N} \]
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="titulos-pag">
+        <p id="titulos-pag">MOVIMIENTO RECTILINEO UNIFORME</p>
+      </div>
+      <div class="Concepto">
+        <h3 class="titulos-pag">Concepto</h3>
+        <p>Bien, cuando una partícula se mueve con velocidad constante, en relación a un determinado sistema de referencia, su movimiento es rectilíneo uniforme (MRU). En el MRU no tiene diferencia entre velocidad media e instantánea, no existe aceleración y la única magnitud que varía con el tiempo es la posición.</p>
+      </div>
+      <div class="Esquema">
+        <img src="Esquemas/mru.png" alt="">
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="Formulas">
+        <h3 id="titulos-pag">Fórmulas</h3>
+        <div class="formula-item">
+          <p><b>Posición final:</b> $x = x_0 + v \cdot t$</p>
+        </div>
+        <div class="formula-item">
+          <p><b>Velocidad:</b> $v = \frac{\Delta x}{\Delta t} = \text{constante}$</p>
+        </div>
+        <div class="formula-item">
+          <p><b>Desplazamiento:</b> $\Delta x = v \cdot t$</p>
+        </div>
+        <div class="formula-item">
+          <p><b>Tiempo:</b> $t = \frac{\Delta x}{v}$</p>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="Ejemplo">
+        <p><b>Ejemplo:</b><br>Para establecer la función de la posición en relación al tiempo de alguna partícula en MRU es necesario, inicialmente, establecer el sistema de referencia adecuado. <br> Vea la siguiente figura.</p>
+        <br>
+        <img src="Ejemplos/ejemplo-mru.png" alt="">
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="video-ejemplo">
+        <h3 id="titulos-pag">Video de Ejemplo</h3>
+        <p>Explicación por Damián Pedraza en su canal El Traductor de Ingeniería, en su guía didáctica sobre Cinemática.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aDHVXyFXxCE?si=y2KQet4VnRt0ULGx&amp;start=2846" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="Ejercicio">
+          <h3>Ejercicio Propuesto</h3>
+          <p>Un auto viaja a <b>60 km/h</b> en MRU. Calcula:</p>
+          <p>• Distancia recorrida en 2 horas</p>
+          <p><b>Solución:</b> $\Delta x = 60 \times 2 = 120\, \text{km}$</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="titulos-pag">
+        <p id="titulos-pag">MOVIMIENTO RECTILINEO UNIFORMEMENTE VARIADO</p>
+      </div>
+      <div class="Concepto">
+        <h3 class="titulos-pag">Concepto</h3>
+        <p>El movimiento de una partícula se dice que es variado cuando su velocidad escalar instantánea varía en el transcurso del tiempo. Si, en cierto intervalo de tiempo, la partícula se mueve cada vez más rápido, es decir, si el módulo de su velocidad escalar instantánea está siempre en aumento (creciente), su movimiento variado será del tipo acelerado.</p>
+      </div>
+      <div class="Esquema">
+        <img src="Esquemas/mruv.png" alt="">
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="Formulas">
+        <h3 id="titulos-pag">Fórmulas Principales</h3>
+        <div class="formula-item">
+          <p><b>Posición final:</b> $x = x_0 + v_0t + \frac{1}{2}at^2$</p>
+        </div>
+        <div class="formula-item">
+          <p><b>Velocidad final:</b> $v_f = v_0 + at$</p>
+        </div>
+        <div class="formula-item">
+          <p><b>Ecuación sin tiempo:</b> $v_f^2 = v_0^2 + 2a\Delta x$</p>
+        </div>
+        <div class="formula-item">
+          <p><b>Aceleración:</b> $a = \frac{v_f - v_0}{t}$</p>
+        </div>
+        <br>
+        <h3 id="titulos-pag">Fórmulas Adicionales</h3>
+        <div class="formula-item">
+          <p><b>Tiempo de encuentro:</b> $t = \frac{v_0}{a}$ (hasta detenerse)</p>
+        </div>
+        <div class="formula-item">
+          <p><b>Altura máxima (caída libre):</b> $h_{max} = \frac{v_0^2}{2g}$</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="page">
+      <div class="Ejemplo">
+        <p><b>Ejemplo:</b><br>Una partícula recorre una recta, en un determinado sentido, con aceleración constante.</p>
+        <br>
+        <img src="Ejemplos/ejemplo-mruv.png" alt="">
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="video-ejemplo">
+        <h3 id="titulos-pag">Video de Ejemplo</h3>
+        <p>Explicación intuitiva por parte del canal Física en Acción.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/94-W8kiAmCg?si=ZT27y68QB5n-HKR8&amp;start=2846" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="Ejercicio">
+          <h3>Ejercicio Propuesto</h3>
+          <p>Un ciclista acelera desde 5 m/s a 15 m/s en 4 s. Calcula:</p>
+          <p>• Su aceleración<br>
+          <b>Solución:</b> $a = \frac{15-5}{4} = 2.5\, \text{m/s²}$</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="titulos-pag">
+        <p id="titulos-pag">CAÍDA LIBRE</p>
+      </div>
+      <div class="Concepto">
+        <h3 class="titulos-pag">Concepto</h3>
+        <p>La caída libre es el movimiento que describe un cuerpo cuando cae hacia la superficie terrestre únicamente por la acción del campo gravitatorio, partiendo generalmente desde el reposo.</p>
+      </div>
+      <div class="Esquema">
+        <img src="Esquemas/caida-libre.png" alt="">
+      </div>
+    </div>
+    
+    <div class="page">
+      <div class="Formulas">
+        <h3 id="titulos-pag">Fórmulas</h3>
+        <div class="formula-item">
+          <p><b>Velocidad final:</b> $v_f = v_0 + gt$</p>
+        </div>
+        <div class="formula-item">
+          <p><b>Altura:</b> $h = v_0t + \frac{1}{2}gt^2$</p>
+        </div>
+        <div class="formula-item">
+          <p><b>Ecuación sin tiempo:</b> $v_f^2 = v_0^2 + 2gh$</p>
+        </div>
+        <div class="formula-item">
+          <p><b>Tiempo de caída:</b> $t = \sqrt{\frac{2h}{g}}$ (partiendo del reposo)</p>
+        </div>
+        <div class="formula-item">
+          <p><b>Aceleración:</b> $g = 9.8\, \text{m/s}^2$ (constante hacia abajo)</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="Ejemplo">
+        <p><b>Ejemplo:</b><br>Sistema de referencia en la caída libre.</p>
+        <br>
+        <img src="Ejemplos/ejemplo-caidalibre.png" alt="">
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="video-ejemplo">
+        <h3 id="titulos-pag">Video de Ejemplo</h3>
+        <p>Introducción a la caída libre por parte de "El profe Juan" del canal Matemáticas con Juan en el curso de Cinemática.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tKT8JLmQ330?si=FdYq6QspsmF5WwCw&amp;start=1985" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="Ejercicio">
+          <h3>Ejercicio Propuesto</h3>
+          <p>Una piedra cae desde 45 m. Calcula su velocidad al impactar.</p>
+          <p><b>Solución:</b> $v_f = \sqrt{2 \times 9.8 \times 45} \approx 29.7\, \text{m/s}$</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="titulos-pag">
+        <p id="titulos-pag">TIRO VERTICAL</p>
+      </div>
+      <div class="Concepto">
+        <h3 class="titulos-pag">Concepto</h3>
+        <p>En el lanzamiento vertical un objeto es lanzado verticalmente hacia arriba o hacia abajo desde cierta altura H despreciando cualquier tipo de rozamiento con el aire o cualquier otro obstáculo. Se trata de un movimiento rectilíneo uniformemente acelerado MRUA O MRUV.</p>
+      </div>
+      <div class="Esquema">
+        <img src="Esquemas/tiro-vertical.png" alt="">
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="Formulas">
+        <h3 id="titulos-pag">Fórmulas Principales</h3>
+        
+        <div class="formula-item">
+          <p><b>Velocidad en cualquier altura:</b> $v_f = v_0 - gt$</p>
+        </div>
+        
+        <div class="formula-item">
+          <p><b>Altura máxima:</b> $h_{max} = \frac{v_0^2}{2g}$</p>
+        </div>
+        
+        <div class="formula-item">
+          <p><b>Tiempo de ascenso:</b> $t_{ascenso} = \frac{v_0}{g}$</p>
+        </div>
+        
+        <div class="formula-item">
+          <p><b>Posición (y) en función del tiempo:</b> $y = v_0t - \frac{1}{2}gt^2$</p>
+        </div>
+        
+        <div class="formula-item">
+          <p><b>Velocidad en altura "y":</b> $v_y = \sqrt{v_0^2 - 2gy}$</p>
+        </div>
+        <br>
+        
+        <h3 id="titulos-pag">Datos Clave</h3>
+        <div class="formula-item">
+          <p>• En la <b>altura máxima</b>: $v_f = 0$</p>
+          <p>• El <b>tiempo de subida</b> = tiempo de bajada</p>
+          <p>• <b>Aceleración</b>: $g = 9.8\, m/s^2$ (hacia abajo)</p>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="Ejemplo">
+        <p><b>Ejemplo:</b><br> Un niño lanza una piedra hacia arriba con una velocidad inicial de 15.5 m/s. Calcular la altura máxima que alcanza la piedra antes de comenzar a descender</p>
+        <br>
+        <img src="Ejemplos/ejemplo-lanzamiento-vertical.png" alt="">
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="video-ejemplo">
+        <h3 id="titulos-pag">Video de Ejemplo</h3>
+        <p>Explicación didáctica por Susi Profe en su canal de youtube con ese nombre, donde nos explica el caso de un lanzamiento vertical hacia abajo.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/T6WSpGQZ7xs?si=DRQJ9jR7tdR2Ey18&amp;start=1985" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="Ejercicio">
+          <h3>Ejercicio Propuesto</h3>
+          <p>Se lanza una pelota verticalmente hacia arriba a 20 m/s. Calcula:</p>
+          <ol>
+            <li>Altura máxima alcanzada</li>
+            <li>Tiempo que tarda en volver al punto de lanzamiento</li>
+          </ol>
+          <p><b>Solución:</b> $h_{max} = \frac{20^2}{2 \times 9.8} \approx 20.4\, m$; $t_{total} = 2 \times \frac{20}{9.8} \approx 4.08\, s$</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="titulos-pag">
+        <p id="titulos-pag">MOVIMIENTO SEMIPARABÓLICO</p>
+      </div>
+      <div class="Concepto">
+        <h3 class="titulos-pag">Concepto</h3>
+        <p>El tiro horizontal es aquél movimiento que se caracteriza por describir un camino curvo que sigue un cuerpo al ser lanzando horizontalmente, es el resultado de dos movimientos independientes; un movimiento horizontal con velocidad constante y otro vertical.</p>
+      </div>
+      <div class="Esquema">
+        <img src="Esquemas/movimientosemiparbolico.png" alt="">
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="Formulas">
+        <h3 id="titulos-pag">Fórmulas Clave</h3>
+        <div class="formula-section">
+          <h4>Eje Horizontal (x)</h4>
+          <div class="formula-item">
+            <p><b>Posición:</b> $x = v_{0x} \cdot t$</p>
+          </div>
+          <div class="formula-item">
+            <p><b>Velocidad:</b> $v_x = v_{0x} = \text{constante}$</p>
+          </div>
+        </div>
+    
+        <br>
+        <div class="formula-section">
+          <h4>Eje Vertical (y)</h4>
+          <div class="formula-item">
+            <p><b>Posición:</b> $y = h - \frac{1}{2}gt^2$</p>
+          </div>
+          <div class="formula-item">
+            <p><b>Velocidad:</b> $v_y = gt$</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="Formulas">
+        <h3 id="titulos-pag">Fórmulas Conbinadas</h3>
+        <div class="formula-section">
+          <h4>Ecuaciones Globales</h4>
+          <div class="formula-item">
+            <p><b>Tiempo de vuelo:</b> $t_v = \sqrt{\frac{2h}{g}}$</p>
+          </div>
+          <div class="formula-item">
+            <p><b>Alcance horizontal:</b> $d = v_{0x} \cdot t_v$</p>
+          </div>
+          <div class="formula-item">
+            <p><b>Velocidad resultante:</b> $v = \sqrt{v_x^2 + v_y^2}$</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="Ejemplo">
+        <p><b>Ejemplo:</b><br>Para entender un poco mejor el movimiento, veamos la siguiente imagen.</p>
+        <br>
+        <img src="Ejemplos/ejemplo-tiro-horizontal.png" alt="">
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="video-ejemplo">
+        <h3 id="titulos-pag">Video de Ejemplo</h3>
+        <p>Introducción al movimiento semiparabólico o tiro horizontal por el estudiante de doctorado de IA Miquel Canal en su canal de Youtube FísicaPRO.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YMs_imtP9a0?si=GtmrvQrK2ieX3xUx&amp;start=1985" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="Ejercicio">
+          <h3>Ejercicio</h3>
+          <p>Se lanza una piedra horizontalmente a 8 m/s desde 20 m de altura.</p>
+          <p><b>Calcular:</b> Alcance horizontal.</p>
+          <p><b>Solución:</b><br>
+             $t_v = \sqrt{\frac{2 \times 20}{9.8}} \approx 2.02\, \text{s}$<br>
+             $d = 8 \times 2.02 \approx 16.2\, \text{m}$
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="titulos-pag">
+        <p id="titulos-pag">MOVIMIENTO DE PROYECTILES</p>
+      </div>
+      <div class="Concepto">
+        <h3 class="titulos-pag">Concepto</h3>
+        <p>Un proyectil es un cuerpo que inicialmente  se le impulsa una velocidad inicial  por dicho efecto mantiene una trayectoria parabólica determinada causada por la aceleración de la gravedad y la resistencia del aire. </p>
+      </div>
+      <div class="Esquema">
+        <img src="Esquemas/movimientoparabolico.png" alt="">
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="Formulas">
+        <h3 id="titulos-pag">Fórmulas Clave</h3>
+        <div class="formula-section">
+          <h4>Descomposición Inicial</h4>
+          <div class="formula-item">
+            <p><b>Velocidad inicial (x):</b> $v_{0x} = v_0 \cdot \cosθ$</p>
+          </div>
+          <div class="formula-item">
+            <p><b>Velocidad inicial (y):</b> $v_{0y} = v_0 \cdot \sinθ$</p>
+          </div>
+        </div>
+        <br>
+        <div class="formula-section">
+          <h4>Eje Horizontal (MRU)</h4>
+          <div class="formula-item">
+            <p><b>Posición:</b> $x = v_{0x} \cdot t$</p>
+          </div>
+          <div class="formula-item">
+            <p><b>Velocidad:</b> $v_x = v_{0x} = \text{constante}$</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="Formulas">
+        <h3 id="titulos-pag">Fórmulas Clave</h3>
+        <div class="formula-section">
+          <h4>Eje Vertical (MRUV)</h4>
+          <div class="formula-item">
+            <p><b>Posición:</b> $y = v_{0y} \cdot t - \frac{1}{2}gt^2$</p>
+          </div>
+          <div class="formula-item">
+            <p><b>Velocidad:</b> $v_y = v_{0y} - gt$</p>
+          </div>
+        </div>
+        <br>
+        <div class="formula-section">
+          <h4>Ecuaciones Globales</h4>
+          <div class="formula-item">
+            <p><b>Tiempo de vuelo:</b> $t_v = \frac{2v_{0y}}{g}$</p>
+          </div>
+          <div class="formula-item">
+            <p><b>Altura máxima:</b> $h_{max} = \frac{v_{0y}^2}{2g}$</p>
+          </div>
+          <div class="formula-item">
+            <p><b>Alcance máximo:</b> $R = \frac{v_0^2 \sin(2θ)}{g}$</p>
+          </div>
+        </div>   
+      </div>
+    </div>
+    
+    <div class="page">
+      <div class="Ejemplo">
+        <p><b>Ejemplo:</b><br>Analicemos la siguiente imagen que describe un claro ejemplo de dicho movimiento en dos dimensiones.</p>
+        <br>
+        <img src="Ejemplos/ejemplo-movimiento_parabolico.png" alt="">
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="video-ejemplo">
+        <h3 id="titulos-pag">Video de Ejemplo</h3>
+        <p>Explicación del movimiento parabólico o de proyectiles por el estudiante de doctorado de IA Miquel Canal en su canal de Youtube FísicaPRO.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DjmC8An-5oo?si=HFM4_tZVUCj-YSP2&amp;start=1985" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="Ejercicio">
+          <h3>Ejercicio Propuesto</h3>
+          <p>Un balón es pateado con velocidad inicial de 20 m/s a 30° sobre la horizontal. Calcula:</p>
+          <ol>
+            <li>Altura máxima alcanzada</li>
+            <li>Tiempo total en el aire</li>
+            <li>Alcance horizontal</li>
+          </ol>
+          <p><b>Solución:</b>
+             $v_{0y} = 20\sin(30°) = 10\, \text{m/s}$
+             1. $h_{max} = \frac{10^2}{2 \times 9.8} \approx 5.1\, \text{m}$
+             2. $t_v = \frac{2 \times 10}{9.8} \approx 2.04\, \text{s}$
+             3. $R = \frac{20^2 \sin(60°)}{9.8} \approx 35.3\, \text{m}$
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Página 1: Título y concepto -->
+<div class="page">
+  <div class="titulos-pag">
+    <p id="titulos-pag">LEYES DE NEWTON</p>
+  </div>
+  <div class="Concepto">
+    <h3 class="titulos-pag">Concepto</h3>
+    <p>
+      Las leyes de Newton son tres principios fundamentales que explican el movimiento de los cuerpos y la interacción de las fuerzas. Son la base de la mecánica clásica y permiten analizar la mayoría de los movimientos que ocurren en la vida cotidiana.
+    </p>
+  </div>
+  <div class="Esquema">
+    <img src="Esquemas/leyesnewton.png" alt="Esquema Leyes de Newton">
+  </div>
+</div>
+
+<!-- Página 2: Las Tres Leyes -->
+<div class="page">
+  <div class="Concepto">
+    <h3 class="titulos-pag">Las Tres Leyes de Newton</h3>
+    <ul>
+      <li><b>Primera Ley (Inercia):</b> Un objeto permanecerá en reposo o en movimiento rectilíneo uniforme a menos que una fuerza externa actúe sobre él.</li>
+      <li><b>Segunda Ley (Fuerza):</b> La aceleración de un cuerpo es proporcional a la fuerza neta aplicada e inversamente proporcional a su masa.</li>
+      <li><b>Tercera Ley (Acción y reacción):</b> Si un cuerpo ejerce una fuerza sobre otro, este ejerce una fuerza igual y en sentido contrario sobre el primero.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Página 3: Fórmulas Clave -->
+<div class="page">
+  <div class="Formulas">
+    <h3 id="titulos-pag">Fórmulas Clave</h3>
+    <div class="formula-section">
+      <div class="formula-item">
+        <p><b>Primera Ley (Inercia):</b> Si $\vec{F}_{\text{net}} = 0 \implies \vec{v} = \text{constante}$</p>
+      </div>
+      <div class="formula-item">
+        <p><b>Segunda Ley (Fuerza):</b> $\vec{F} = m \cdot \vec{a}$</p>
+      </div>
+      <div class="formula-item">
+        <p><b>Tercera Ley (Acción y reacción):</b> $\vec{F}_{AB} = -\vec{F}_{BA}$</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Página 4: Ejemplo ilustrativo -->
+<div class="page">
+  <div class="Ejemplo">
+    <p><b>Ejemplo:</b><br>Un objeto de 2 kg se mueve sobre una superficie horizontal sin fricción y se le aplica una fuerza de 10 N. ¿Cuál es su aceleración?</p>
+    <p><b>Solución:</b> $a = \frac{F}{m} = \frac{10\,\text{N}}{2\,\text{kg}} = 5\,\text{m/s}^2$</p>
+    <br>
+    <img src="Ejemplos/leyes_ejemplo.png" alt="Esquema Leyes de Newton">
+  </div>
+</div>
+
+<!-- Página 5: Video de apoyo -->
+<div class="page">
+  <div class="video-ejemplo">
+    <h3 id="titulos-pag">Video de Apoyo</h3>
+    <p>Explicación de las leyes de Newton por parte del creativo y elocuente equipo del canal <b>CuriosaMente</b>, donde nos explican de forma simple las leyes de Newton.</p>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/86ZNmoAdlNg?si=GsxmQotCBO6Chzfm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br><br>
+    <div class="Ejercicio">
+      <h3>Ejercicio Propuesto</h3>
+      <p>
+        Un objeto de 3&nbsp;kg está en reposo y recibe una fuerza neta de 6&nbsp;N. ¿Cuál será su aceleración?
+      </p>
+      <p><b>Solución:</b> $a = \frac{F}{m} = \frac{6}{3} = 2\,\text{m/s}^2$</p>
+    </div>
+  </div>
+</div>
+
+<!-- Página 1: Título y concepto -->
+<div class="page">
+  <div class="titulos-pag">
+    <p id="titulos-pag">PRIMERA LEY DE NEWTON (LEY DE LA INERCIA)</p>
+  </div>
+  <div class="Concepto">
+    <h3 class="titulos-pag">Concepto</h3>
+    <p>
+      La Primera Ley de Newton, o Ley de la Inercia, establece que todo cuerpo permanece en reposo o en movimiento rectilíneo uniforme a menos que una fuerza neta actúe sobre él.
+    </p>
+  </div>
+  <div class="Esquema">
+    <img src="Esquemas/primeraley.png" alt="Esquema Primera Ley de Newton">
+  </div>
+</div>
+
+<!-- Página 2: Fórmula clave -->
+<div class="page">
+  <div class="Formulas">
+    <h3 id="titulos-pag">Fórmula Clave</h3>
+    <div class="formula-section">
+      <div class="formula-item">
+        <p><b>Condición de inercia:</b> Si $\vec{F}_{\text{net}} = 0 \implies \vec{v} = \text{constante}$</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Página 3: Ejemplo sencillo -->
+<div class="page">
+  <div class="Ejemplo">
+    <p><b>Ejemplo:</b><br>
+    Una pelota sobre una superficie lisa permanece en reposo hasta que alguien la empuja. Una vez empujada, continuará moviéndose en línea recta y a velocidad constante si no hay fricción ni otra fuerza externa.
+    </p>
+    <br>
+    <img src="ejemplos/primeraley.png" alt="Esquema Primera Ley de Newton">
+  </div>
+</div>
+
+<!-- Página 4: Video de apoyo + ejercicio -->
+<div class="page">
+  <div class="video-ejemplo">
+    <h3 id="titulos-pag">Video de Apoyo</h3>
+    <p>Explicación sucinta y breve por cortesía del canal de Youtube <b>Es Ciencia</b>.</p>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/I5lVhAUBOKI?si=lHJNZflTb6l5JEg9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br><br>
+    <div class="Ejercicio">
+      <h3>Ejercicio Propuesto</h3>
+      <p>
+        Un libro sobre una mesa permanece en reposo. ¿Por qué no se mueve hasta que alguien lo empuja?
+      </p>
+      <p><b>Respuesta:</b> Porque no hay una fuerza neta actuando sobre él; permanece en reposo por inercia hasta que se le aplique una fuerza externa.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Página 1: Título y concepto -->
+<div class="page">
+  <div class="titulos-pag">
+    <p id="titulos-pag">SEGUNDA LEY DE NEWTON (LEY DE LA FUERZA)</p>
+  </div>
+  <div class="Concepto">
+    <h3 class="titulos-pag">Concepto</h3>
+    <p>
+      La Segunda Ley de Newton establece que la aceleración de un objeto es proporcional a la fuerza neta que actúa sobre él e inversamente proporcional a su masa. Esta ley permite analizar el movimiento de cuerpos en situaciones como planos inclinados y con fuerzas de fricción.
+    </p>
+  </div>
+  <div class="Esquema">
+    <img src="Esquemas/segundaley.png" alt="Esquema Segunda Ley de Newton">
+  </div>
+</div>
+
+<!-- Página 2: Fórmula clave y descomposición en plano inclinado -->
+<div class="page">
+  <div class="Formulas">
+    <h3 id="titulos-pag">Fórmulas Clave</h3>
+    <div class="formula-section">
+      <div class="formula-item">
+        <p><b>Segunda Ley:</b> $\vec{F}_{\text{net}} = m \cdot \vec{a}$</p>
+      </div>
+      <div class="formula-item">
+        <p><b>Plano inclinado:</b> $F = m \cdot g \cdot \sin\theta$</p>
+      </div>
+      <div class="formula-item">
+        <p><b>Fuerza de fricción:</b> $f_{r} = \mu \cdot N$</p>
+        <p>donde $\mu$ es el coeficiente de fricción y $N$ la normal.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Página 3: Ejemplo sencillo plano inclinado con fricción -->
+<div class="page">
+  <div class="Ejemplo">
+    <p><b>Ejemplo:</b><br>
+      <img src="Ejemplos/segundaley.png" alt="Esquema Segunda Ley de Newton">
+      <br>
+      Una caja de 10 kg se encuentra sobre un plano inclinado de $30^\circ$ respecto a la horizontal. Si el coeficiente de fricción es $\mu = 0.2$, calcula la fuerza neta que hace que la caja baje por el plano.
+    </p>
+    <p>
+      <b>Solución:</b>
+      <br>
+      Fuerza paralela: $F = m g \sin\theta = 10 \times 9.8 \times \sin(30^\circ) = 49\,\text{N}$<br>
+      Fuerza normal: $N = m g \cos\theta = 10 \times 9.8 \times \cos(30^\circ) \approx 84.87\,\text{N}$<br>
+      Fricción: $f_r = \mu N = 0.2 \times 84.87 \approx 16.97\,\text{N}$<br>
+      Fuerza neta: $F_{net} = 49 - 16.97 \approx 32.03\,\text{N}$
+    </p>
+  </div>
+</div>
+
+<!-- Página 4: Video + Ejercicio propuesto -->
+<div class="page">
+  <div class="video-ejemplo">
+    <h3 id="titulos-pag">Video de Apoyo</h3>
+    <p>Explicación sucinta y breve por cortesía del canal de Youtube <b>Es Ciencia</b>.</p>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lPK9UGjoa8s?si=NMQE7NJhMMhafTzS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br><br>
+    <div class="Ejercicio">
+      <h3>Ejercicio Propuesto</h3>
+      <p>
+        Un bloque de 5 kg descansa sobre un plano inclinado de $20^\circ$. El coeficiente de fricción es $\mu = 0.1$. ¿Cuál es la fuerza de fricción que actúa sobre el bloque?
+      </p>
+      <p><b>Solución:</b> $N = 5 \times 9.8 \times \cos(20^\circ) \approx 46.07\,\text{N}$<br>
+      $f_r = \mu N = 0.1 \times 46.07 \approx 4.61\,\text{N}$</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Página 1: Título y concepto -->
+<div class="page">
+  <div class="titulos-pag">
+    <p id="titulos-pag">TERCERA LEY DE NEWTON (ACCIÓN Y REACCIÓN)</p>
+  </div>
+  <div class="Concepto">
+    <h3 class="titulos-pag">Concepto</h3>
+    <p>
+      La Tercera Ley de Newton afirma que si un cuerpo ejerce una fuerza sobre otro, este responde ejerciendo una fuerza de igual magnitud y dirección, pero en sentido opuesto. Se resume como "a toda acción corresponde una reacción igual y contraria".
+    </p>
+  </div>
+  <div class="Esquema">
+    <img src="Esquemas/terceraley.png" alt="Esquema Tercera Ley de Newton">
+  </div>
+</div>
+
+<!-- Página 2: Fórmula clave y ejemplo -->
+<div class="page">
+  <div class="Formulas">
+    <h3 id="titulos-pag">Fórmula Clave</h3>
+    <div class="formula-section">
+      <div class="formula-item">
+        <p><b>Expresión matemática:</b> $\vec{F}_{AB} = -\vec{F}_{BA}$</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Página 3: Ejemplo sencillo -->
+<div class="page">
+  <div class="Ejemplo">
+    <p><b>Ejemplo:</b><br>
+      <img src="Ejemplos/terceraley.png" alt="Esquema Tercera Ley de Newton">
+      <br>
+      Cuando empujas una pared, tú ejerces una fuerza sobre ella y, al mismo tiempo, la pared ejerce una fuerza igual y en sentido contrario sobre ti.
+    </p>
+  </div>
+</div>
+
+<!-- Página 4: Video + ejercicio propuesto -->
+<div class="page">
+  <div class="video-ejemplo">
+    <h3 id="titulos-pag">Video de Apoyo</h3>
+    <p>Explicación sucinta y breve por cortesía del canal de Youtube <b>Es Ciencia</b>.</p>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4qSqDZ6at-A?si=E-iul3SmTMFYvw3V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br><br>
+    <div class="Ejercicio">
+      <h3>Ejercicio Propuesto</h3>
+      <p>
+        Una persona de pie sobre un patín empuja una pared y se mueve hacia atrás. ¿Qué fuerza provoca el movimiento de la persona?
+      </p>
+      <p><b>Respuesta:</b> La reacción de la pared: la persona empuja la pared y, en respuesta, la pared ejerce una fuerza igual y contraria sobre la persona, impulsándola hacia atrás.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Página 1: Título y concepto -->
+<div class="page">
+  <div class="titulos-pag">
+    <p id="titulos-pag">APLICACIONES DE LAS LEYES DE NEWTON</p>
+  </div>
+  <div class="Concepto">
+    <h3 class="titulos-pag">Concepto</h3>
+    <p>
+      Las leyes de Newton se aplican en una amplia variedad de situaciones del mundo real. Desde el movimiento de vehículos y la caída de objetos, hasta deportes, máquinas y el análisis de fuerzas en estructuras, estas leyes explican cómo y por qué los objetos se mueven o permanecen en reposo.
+    </p>
+  </div>
+  <div class="Esquema">
+    <img src="Esquemas/aplicaciones_leyesnewton.png" alt="Aplicaciones de las Leyes de Newton">
+  </div>
+</div>
+
+<!-- Página 2: Ejemplos prácticos -->
+<div class="page">
+  <div class="Ejemplo">
+    <h3 class="titulos-pag">Ejemplos de Aplicación</h3>
+    <ul>
+      <li><b>Automóviles:</b> El motor genera una fuerza que acelera el vehículo (Segunda Ley).</li>
+      <li><b>Lanzamiento de pelotas:</b> La trayectoria y el impacto se analizan con la Segunda y Tercera Ley.</li>
+      <li><b>Caída libre:</b> Los cuerpos caen acelerados por la gravedad (Primera y Segunda Ley).</li>
+      <li><b>Remar un bote:</b> Al empujar el agua hacia atrás, el bote avanza (Tercera Ley).</li>
+      <li><b>Empujar un mueble:</b> Si no hay suficiente fuerza, el mueble no se mueve (Primera Ley).</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Página 3: Video + ejercicio propuesto -->
+<div class="page">
+  <div class="video-ejemplo">
+    <h3 id="titulos-pag">Video de Apoyo</h3>
+    <p>Información breve pero muy concluyente sobre distintos casos de aplicación de las leyes de Newton.</p>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0IgnY4udf74?si=nHiYBn8E5v2SFEFH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br><br>
+    <div class="Ejercicio">
+      <h3>Ejercicio Propuesto</h3>
+      <p>
+        Cuando saltas desde una lancha hacia el muelle, ¿por qué la lancha se mueve en sentido contrario?
+      </p>
+      <p><b>Respuesta:</b> Por la Tercera Ley de Newton: la fuerza que aplicas hacia adelante genera una reacción igual y opuesta que impulsa la lancha hacia atrás.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Página 1: Título y concepto -->
+<div class="page">
+  <div class="titulos-pag">
+    <p id="titulos-pag">MOVIMIENTO CIRCULAR</p>
+  </div>
+  <div class="Concepto">
+    <h3 class="titulos-pag">Concepto</h3>
+    <p>
+      El movimiento circular es aquel en el que un objeto se desplaza a lo largo de una trayectoria en forma de circunferencia. Sus características principales son la velocidad angular, el radio de la trayectoria y la aceleración centrípeta.
+    </p>
+  </div>
+  <div class="Esquema">
+    <img src="Esquemas/movimientocircular.png" alt="Esquema Movimiento Circular">
+  </div>
+</div>
+
+<!-- Página 2: Fórmulas clave -->
+<div class="page">
+  <div class="Formulas">
+    <h3 id="titulos-pag">Fórmulas Clave</h3>
+    <div class="formula-section">
+      <div class="formula-item">
+        <p><b>Velocidad angular:</b> $\omega = \frac{\theta}{t}$</p>
+      </div>
+      <div class="formula-item">
+        <p><b>Velocidad tangencial:</b> $v = r \omega$</p>
+      </div>
+      <div class="formula-item">
+        <p><b>Aceleración centrípeta:</b> $a_c = \frac{v^2}{r} = r \omega^2$</p>
+      </div>
+      <div class="formula-item">
+        <p><b>Frecuencia:</b> $f = \frac{1}{T}$</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Página 3: Ejemplo visual y desarrollo -->
+<div class="page">
+  <div class="Ejemplo">
+    <img src="Ejemplos/movimientocircular.png" alt="Ejemplo Movimiento Circular">
+    <p><b>Ejemplo:</b><br>
+      Una piedra atada a una cuerda de 0.5&nbsp;m gira en círculo con una velocidad constante de 4&nbsp;m/s. ¿Cuál es su aceleración centrípeta?
+    </p>
+    <p><b>Solución:</b> $a_c = \frac{v^2}{r} = \frac{4^2}{0.5} = \frac{16}{0.5} = 32\,\text{m/s}^2$</p>
+  </div>
+</div>
+
+<!-- Página 4: Video + ejercicio propuesto -->
+<div class="page">
+  <div class="video-ejemplo">
+    <h3 id="titulos-pag">Video de Apoyo</h3>
+    <p>
+      Explicación amplia, clara y detallada por parte de Maria Jesús Villanueva en su canal de Youtube <b>SusiProfe</b>, en la que nos da este tema tan importante en cinemática.
+    </p>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/JVGvzWgO5i4?si=MGGJka439yhRr_3J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br><br>
+    <div class="Ejercicio">
+      <h3>Ejercicio Propuesto</h3>
+      <p>
+        Un auto recorre una pista circular de radio 10&nbsp;m a una velocidad constante de 5&nbsp;m/s. ¿Cuál es la aceleración centrípeta que experimenta el auto?
+      </p>
+      <p><b>Solución:</b> $a_c = \frac{5^2}{10} = \frac{25}{10} = 2.5\,\text{m/s}^2$</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Página 1: Título y concepto -->
+<div class="page">
+  <div class="titulos-pag">
+    <p id="titulos-pag">TRABAJO</p>
+  </div>
+  <div class="Concepto">
+    <h3 class="titulos-pag">Concepto</h3>
+    <p>
+      El trabajo es una magnitud física que mide la energía transferida por una fuerza que mueve un objeto a lo largo de una distancia. Solo se realiza trabajo cuando la fuerza tiene una componente en la dirección del desplazamiento.
+    </p>
+  </div>
+  <div class="Esquema">
+    <img src="Esquemas/trabajo.png" alt="Esquema Trabajo">
+  </div>
+</div>
+
+<!-- Página 2: Fórmula clave -->
+<div class="page">
+  <div class="Formulas">
+    <h3 id="titulos-pag">Fórmula Clave</h3>
+    <div class="formula-section">
+      <div class="formula-item">
+        <p><b>Trabajo de una fuerza constante:</b> $W = F \cdot d \cdot \cos\theta$</p>
+        <p>
+          Donde:<br>
+          $W$ = trabajo realizado (Joules)<br>
+          $F$ = magnitud de la fuerza (Newtons)<br>
+          $d$ = distancia (metros)<br>
+          $\theta$ = ángulo entre la fuerza y el desplazamiento
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Página 3: Ejemplo visual y desarrollo -->
+<div class="page">
+  <div class="Ejemplo">
+    <img src="Ejemplos/trabajo.png" alt="Ejemplo Trabajo">
+    <p><b>Ejemplo:</b><br>
+      Una persona empuja una caja con una fuerza de 50&nbsp;N a lo largo de 4&nbsp;m, en línea recta y en la misma dirección de la fuerza. ¿Cuánto trabajo realiza?
+    </p>
+    <p><b>Solución:</b> $W = 50 \times 4 \times \cos(0^\circ) = 200\,\text{J}$</p>
+  </div>
+</div>
+
+<!-- Página 4: Video + ejercicio propuesto -->
+<div class="page">
+  <div class="video-ejemplo">
+    <h3 id="titulos-pag">Video de Apoyo</h3>
+    <p>
+      Explicación extendida de un ejercicio de aplicación por parte del profesor Sergio Llanos en su canal de Youtube.
+    </p>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/myv6Ii_J3kQ?si=W1eBxoS8tEafDrXb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br><br>
+    <div class="Ejercicio">
+      <h3>Ejercicio Propuesto</h3>
+      <p>
+        Si una fuerza de 20&nbsp;N mueve un objeto 3&nbsp;m en la dirección de la fuerza, ¿cuánto trabajo realiza?
+      </p>
+      <p><b>Solución:</b> $W = 20 \times 3 \times \cos(0^\circ) = 60\,\text{J}$</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Página 1: Título y concepto -->
+<div class="page">
+  <div class="titulos-pag">
+    <p id="titulos-pag">ENERGÍA CINÉTICA</p>
+  </div>
+  <div class="Concepto">
+    <h3 class="titulos-pag">Concepto</h3>
+    <p>
+      La energía cinética es la energía que posee un cuerpo debido a su movimiento. Depende de la masa del objeto y de la velocidad con la que se desplaza.
+    </p>
+  </div>
+  <div class="Esquema">
+    <img src="Esquemas/energiacinetica.png" alt="Esquema Energía Cinética">
+  </div>
+</div>
+
+<!-- Página 2: Fórmula clave -->
+<div class="page">
+  <div class="Formulas">
+    <h3 id="titulos-pag">Fórmula Clave</h3>
+    <div class="formula-section">
+      <div class="formula-item">
+        <p><b>Energía cinética:</b> $E_k = \frac{1}{2}mv^2$</p>
+        <p>
+          Donde:<br>
+          $E_k$ = energía cinética (Joules)<br>
+          $m$ = masa (kg)<br>
+          $v$ = velocidad (m/s)
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Página 3: Ejemplo visual y desarrollo -->
+<div class="page">
+  <div class="Ejemplo">
+    <img src="Ejemplos/energiacinetica.png" alt="Ejemplo Energía Cinética">
+    <p><b>Ejemplo:</b><br>
+      Una pelota de 2&nbsp;kg se mueve a 5&nbsp;m/s. ¿Cuál es su energía cinética?
+    </p>
+    <p><b>Solución:</b> $E_k = \frac{1}{2} \times 2 \times 5^2 = 1 \times 25 = 25\,\text{J}$</p>
+  </div>
+</div>
+
+<!-- Página 4: Video + ejercicio propuesto -->
+<div class="page">
+  <div class="video-ejemplo">
+    <h3 id="titulos-pag">Video de Apoyo</h3>
+    <p>
+      Explicación amplia, clara y detallada por parte de Maria Jesús Villanueva en su canal de Youtube <b>SusiProfe</b>, donde nos explica acerca de la energía cinética.
+    </p>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/cL4H9Vwd8v4?si=Wabx6csxWjv4sCTf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br><br>
+    <div class="Ejercicio">
+      <h3>Ejercicio Propuesto</h3>
+      <p>
+        ¿Cuál es la energía cinética de un auto de 1,000&nbsp;kg que viaja a 10&nbsp;m/s?
+      </p>
+      <p><b>Solución:</b> $E_k = \frac{1}{2} \times 1000 \times 10^2 = 500 \times 100 = 50,000\,\text{J}$</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Página 1: Título y concepto -->
+<div class="page">
+  <div class="titulos-pag">
+    <p id="titulos-pag">ENERGÍA POTENCIAL Y CONSERVACIÓN DE LA ENERGÍA</p>
+  </div>
+  <div class="Concepto">
+    <h3 class="titulos-pag">Concepto</h3>
+    <p>
+      La energía potencial es la energía almacenada en un objeto debido a su posición o estado. La ley de conservación de la energía establece que la energía no se crea ni se destruye, solo se transforma de una forma a otra.
+    </p>
+  </div>
+  <div class="Esquema">
+    <img src="Esquemas/energiapotencial.png" alt="Esquema Energía Potencial y Conservación">
+  </div>
+</div>
+
+<!-- Página 2: Fórmulas clave -->
+<div class="page">
+  <div class="Formulas">
+    <h3 id="titulos-pag">Fórmulas Clave</h3>
+    <div class="formula-section">
+      <div class="formula-item">
+        <p><b>Energía potencial gravitatoria:</b> $E_p = mgh$</p>
+        <p>
+          Donde:<br>
+          $E_p$ = energía potencial (Joules)<br>
+          $m$ = masa (kg)<br>
+          $g$ = gravedad ($9.8\,\text{m/s}^2$)<br>
+          $h$ = altura (m)
+        </p>
+      </div>
+      <div class="formula-item">
+        <p><b>Conservación de la energía:</b> $E_{inicial} = E_{final}$</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Página 3: Ejemplo visual y desarrollo -->
+<div class="page">
+  <div class="Ejemplo">
+    <img src="Ejemplos/energiapotencial.png" alt="Ejemplo Energía Potencial">
+    <p><b>Ejemplo:</b><br>
+      Una caja de 5&nbsp;kg está a 10&nbsp;m de altura. ¿Cuál es su energía potencial gravitatoria?
+    </p>
+    <p><b>Solución:</b> $E_p = 5 \times 9.8 \times 10 = 490\,\text{J}$</p>
+  </div>
+</div>
+
+<!-- Página 4: Video + ejercicio propuesto -->
+<div class="page">
+  <div class="video-ejemplo">
+    <h3 id="titulos-pag">Video de Apoyo</h3>
+    <p>
+      Explicación amplia, clara y detallada por parte de Maria Jesús Villanueva en su canal de Youtube <b>SusiProfe</b>, donde nos explica la Energía potencial y conservación de la energía.
+    </p>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/f4IWnif1wjs?si=STsQF9_hkSAl6tRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br><br>
+    <div class="Ejercicio">
+      <h3>Ejercicio Propuesto</h3>
+      <p>
+        Un niño de 40&nbsp;kg sube a un columpio que está a 2&nbsp;m del suelo. ¿Cuál es su energía potencial gravitatoria respecto al suelo?
+      </p>
+      <p><b>Solución:</b> $E_p = 40 \times 9.8 \times 2 = 784\,\text{J}$</p>
+    </div>
+  </div>
+</div>
+
+<!-- Página 1: Título y concepto -->
+<div class="page">
+  <div class="titulos-pag">
+    <p id="titulos-pag">MOMENTUM LINEAL</p>
+  </div>
+  <div class="Concepto">
+    <h3 class="titulos-pag">Concepto</h3>
+    <p>
+      El momentum lineal, también conocido como cantidad de movimiento, es una magnitud vectorial que representa el producto de la masa de un cuerpo por su velocidad. Es fundamental en el análisis de choques y colisiones.
+    </p>
+  </div>
+  <div class="Esquema">
+    <img src="Esquemas/momentumlineal.png" alt="Esquema Momentum Lineal">
+  </div>
+</div>
+
+<!-- Página 2: Fórmula clave -->
+<div class="page">
+  <div class="Formulas">
+    <h3 id="titulos-pag">Fórmula Clave</h3>
+    <div class="formula-section">
+      <div class="formula-item">
+        <p><b>Momentum lineal:</b> $\vec{p} = m \cdot \vec{v}$</p>
+        <p>
+          Donde:<br>
+          $\vec{p}$ = momentum lineal (kg·m/s)<br>
+          $m$ = masa (kg)<br>
+          $\vec{v}$ = velocidad (m/s)
+        </p>
+      </div>
+      <div class="formula-item">
+        <p><b>Conservación del momentum:</b> $\sum \vec{p}_{\text{inicial}} = \sum \vec{p}_{\text{final}}$</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Página 3: Ejemplo visual y desarrollo -->
+<div class="page">
+  <div class="Ejemplo">
+    <img src="Ejemplos/momentumlineal.png" alt="Ejemplo Momentum Lineal">
+    <p><b>Ejemplo:</b><br>
+      Una pelota de 0.5&nbsp;kg se mueve a 6&nbsp;m/s. ¿Cuál es su momentum lineal?
+    </p>
+    <p><b>Solución:</b> $p = 0.5 \times 6 = 3\,\text{kg}\cdot\text{m/s}$</p>
+  </div>
+</div>
+
+<!-- Página 4: Video + ejercicio propuesto -->
+<div class="page">
+  <div class="video-ejemplo">
+    <h3 id="titulos-pag">Video de Apoyo</h3>
+    <p>
+      Explicación amplia y detallada tratando de no dejar huecos de información por cortesía de <b>FiAsMath</b>.
+    </p>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7NeoRo-85p8?si=vx434A8BzICQR5RQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br><br>
+    <div class="Ejercicio">
+      <h3>Ejercicio Propuesto</h3>
+      <p>
+        Un auto de 900&nbsp;kg avanza a 12&nbsp;m/s. ¿Cuál es su momentum lineal?
+      </p>
+      <p><b>Solución:</b> $p = 900 \times 12 = 10,\!800\,\text{kg}\cdot\text{m/s}$</p>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Página 1: Título y concepto -->
+<div class="page">
+  <div class="titulos-pag">
+    <p id="titulos-pag">CHOQUES</p>
+  </div>
+  <div class="Concepto">
+    <h3 class="titulos-pag">Concepto</h3>
+    <p>
+      Un choque es una interacción breve entre dos cuerpos en la que se produce una gran fuerza durante un tiempo muy corto. Se analizan en física según la conservación del momentum lineal y, en algunos casos, de la energía.
+    </p>
+  </div>
+  <div class="Esquema">
+    <img src="Esquemas/choques.png" alt="Esquema Choques">
+  </div>
+</div>
+
+<!-- Página 2: Fórmulas clave -->
+<div class="page">
+  <div class="Formulas">
+    <h3 id="titulos-pag">Fórmulas Clave</h3>
+    <div class="formula-section">
+      <div class="formula-item">
+        <p><b>Conservación del momentum:</b> $\sum \vec{p}_{\text{inicial}} = \sum \vec{p}_{\text{final}}$</p>
+      </div>
+      <div class="formula-item">
+        <p><b>Choque elástico:</b> Se conserva la energía cinética total.</p>
+      </div>
+      <div class="formula-item">
+        <p><b>Choque inelástico:</b> No se conserva la energía cinética, pero sí el momentum lineal.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Página 3: Ejemplo visual y desarrollo -->
+<div class="page">
+  <div class="Ejemplo">
+    <img src="Ejemplos/choques.png" alt="Ejemplo Choques">
+    <p><b>Ejemplo:</b><br>
+      Dos carros, uno de 1,000&nbsp;kg y otro de 800&nbsp;kg, colisionan frontalmente. Antes del choque, el primero va a 10&nbsp;m/s y el segundo a -12&nbsp;m/s. ¿Cuál es el momentum total antes del choque?
+    </p>
+    <p><b>Solución:</b> $p_1 = 1,\!000 \times 10 = 10,\!000$<br>
+      $p_2 = 800 \times (-12) = -9,\!600$<br>
+      $p_{total} = 10,\!000 + (-9,\!600) = 400\,\text{kg}\cdot\text{m/s}$
+    </p>
+  </div>
+</div>
+
+<!-- Página 4: Video + ejercicio propuesto -->
+<div class="page">
+  <div class="video-ejemplo">
+    <h3 id="titulos-pag">Video de Apoyo</h3>
+    <p>
+      Explicación clara y rápida nuevamente por el canal <b>Es Ciencia</b>.
+    </p>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/f2ABNZVMIC4?si=vkeOBMIKaZ9bTONP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br><br>
+    <div class="Ejercicio">
+      <h3>Ejercicio Propuesto</h3>
+      <p>
+        Una pelota de 0.2&nbsp;kg choca con otra de 0.3&nbsp;kg. Si la primera va a 8&nbsp;m/s y la segunda está en reposo, ¿cuál es el momentum total antes del choque?
+      </p>
+      <p><b>Solución:</b> $p_{total} = (0.2 \times 8) + (0.3 \times 0) = 1.6\,\text{kg}\cdot\text{m/s}$</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="page">
+  <div class="titulos-pag">
+    <p id="titulos-pag">VIDEOS INDIVIDUALES DE LOS INTEGRANTES</p>
+  </div>
+  <div class="videos-integrantes">
+    <h3>Experimento del Grupo:</h3>
+    <p>
+      <a href="https://drive.google.com/file/d/1xbDH6eJuBZG6gDY17dToQy5A5-PrUgJZ/view?usp=drive_link" target="_blank">
+        Ver video de experimento del grupo (Momentum lineal)
+      </a>
+    </p>
+    <hr>
+    <h3>José Pablo Ambrocio Pineda:</h3>
+    <p>
+      <a href="https://drive.google.com/file/d/1KhUz-PM0VtLLlkemYiA1jBT_wp56uU8h/view?usp=drive_link" target="_blank">
+        Ver video individual (Movimiento semiparabólico)
+      </a>
+    </p>
+    <hr>
+    <h3>Mabelin Rosivel Sarceño Castillo:</h3>
+    <p>
+      <a href="https://drive.google.com/file/d/1yhK4s1kqv6xVUDSR3B7B40m2gcH-UiTK/view?usp=drivesdk" target="_blank">
+        Ver video individual (Energía Potencial)
+      </a>
+    </p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+    
+
+    <div class="hard"></div>
+    <div class="hard">
+      <p style="text-align: center; font-size: 1.5rem; margin-top: 50%;">¡Gracias por leer!</p>
+      <small style="display: block; text-align: center; margin-top: 1rem;"></small>
+    </div>
+  </div>
+
+  <script src="jquery.js"></script>
+  <script src="turn.js"></script>
+  <script>
+    $(".flipbook").turn();
+
+    // Reprocesar MathJax al cambiar de página
+    $(".flipbook").bind("turned", function (event, page, view) {
+      if (window.MathJax) {
+        MathJax.typesetPromise();
+      }
+    });
+  </script>
+</body>
+
+</html>

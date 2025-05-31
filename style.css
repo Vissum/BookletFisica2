@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    width: 100vw;
+	  overflow: hidden;
+
+   
+    background-image: url("https://preview.redd.it/i-am-so-frustrated-im-borderline-depressed-how-can-i-make-v0-dz5k7e7wb6ia1.gif?width=520&auto=webp&s=d822e6d175d275ff03dcded47a5a651e9d441c1a");
+    background-size: cover;
+  }
+
+ 
+
+.flipbook {
+  top: 40px;
+    width: 1000px;
+    height: 700px;
+}
+
+.flipbook .hard {
+    background: #000000 !important;
+    color: #fff;
+    font-weight: bold;
+    border: none; 
+}
+
+.flipbook .hard small{
+	font-style: italic;
+	font-weight: lighter;
+	opacity: 0.7;
+	font-size: 14px;
+}
+
+.flipbook .page {
+    background: #b5aea2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.page img{
+	width: 70%;
+	object-fit: cover;
+	margin: auto;
+}
+
+.flipbook .page small{
+	font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.codystar-light {
+    font-family: "Codystar", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .codystar-regular {
+    font-family: "Codystar", sans-serif;
+    font-weight: 800;
+    font-size: larger;
+    font-style: normal;
+  }
+
+  .portada{
+    width: 80%;
+   
+  }
+
+  .portada img{
+    width: 50%;
+    height: 50%;
+    display: block;
+    position: relative;
+    top: 160px;
+    left: 140px;
+  }
+  
+  .portada2{
+    width: 80%;
+   
+  }
+
+  .portada2 img{
+    width: 50%;
+    height: 70%;
+    display: block;
+    position: relative;
+    top: 40px;
+    left: -70px;
+  }
+  
+  #titulos-pag{
+    text-align: left;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: large;
+    font-weight: large;
+    font-size: large;
+    font-style: normal;
+  }
+
+  .titulos-pag {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+  
+
+  .Concepto {
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .Concepto {
+      max-width: 700px;
+    }
+  }
+  
+
+  .Concepto h3{
+    font-family: "Orbitron", sans-serif;
+    font-size: medium;
+  }
+
+  .Concepto p{
+    top: 110px;
+    position: fixed;
+    font-family: sans-serif;
+    font-size: smaller;
+  }
+
+
+  .formula-item {
+    position: relative;
+    top: 20px;
+    
+    width: 170%;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.formula-item h4 {
+    color: #333;
+    font-family: "Orbitron", sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.formula-item p {
+    font-family: monospace;
+    font-size: 13px;
+    color: #0066cc;
+    line-height: 1.4;
+}
+
+.formula-item sup, .formula-item sub {
+    font-size: 2em;
+}
+
+
+
+.Ejemplo{
+  position: relative;
+ 
+}
+.Ejemplo img{
+  display: block;
+  margin: auto;
+  max-width: 50%;
+  max-height: fit-content;
+  width: 100%;
+  height: 100%;
+
+}
+
+.video-ejemplo{
+  position: relative;
+  top: 20px;
+  left: 0;
+  margin-top: -7rem;
+  margin-left: 3rem;
+}
+
+
+.video-ejemplo iframe{
+  position: relative;
+  margin-top: 1rem;
+  width: 90%; 
+  height: auto;
+ 
+}
+
+.video-ejemplo p{
+  position: relative;
+  top: 20px;
+  
+  font-family: sans-serif;
+  font-size: medium;
+}
+
+
+.Ejercicio{
+  position: relative;
+  top: 110px;
+}
+
+.Ejercicio h3{
+  position: inherit;
+  top: -30px;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: large;
+  font-weight: large;
+  font-size: large;
+  font-style: normal;
+}
+.Ejercicio p{
+  position: inherit;
+  top: 15px;
+  font-family: sans-serif;
+  font-size: small;
+} 
+
+
+.Ejercicio li{
+  position: relative;
+  top: 15px;
+  font-family: sans-serif;
+  font-size: smaller;
+}
+
+
+
+
+#titulos-pag-g{
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: large;
+  font-weight: large;
+  font-size: large;
+  font-style: normal;
+}
+
+
+#titulo-in{
+  font-family: "Orbitron", sans-serif;
+ text-align: center;
+  font-size: 30px;
+  font-style: normal;
+}
+
+.titulos-pag-g{
+  position: relative;
+  top: -320px;
+    left: -310px;
+  }
+
+  /* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .flipbook {
+    width: 95%; /* Adjust flipbook width */
+    height: auto; /* Adjust flipbook height automatically */
+  }
+  .flipbook .page {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    overflow-y: auto;
+    height: 100%;
+  }
+  
+} 
+  
+  .portada img{
+    width: 100%; /* Adjust to full width */
+    height: auto; /* Adjust height automatically */
+    position: relative;
+    top: 10px; /* Adjust vertical position */
+    left: 0; /* Center horizontally */
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+  }
+
+  .portada2 img{
+    width: 100%; /* Adjust to full width */
+    height: auto; /* Adjust height automatically */
+    position: relative;
+    top: 10px; /* Adjust vertical position */
+    left: 0; /* Center horizontally */
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+  }
+
+  
+
+  .Concepto {
+    top: -200px; /* Adjust vertical position */
+    left: 0; /* Center horizontally */
+    text-align: center; /* Center text */
+    width: 100%;
+  }
+
+  .Concepto p {
+    position: relative; 
+    top: 20px; 
+    width: 90%;
+  }
+
+  .Esquema {
+    position: relative; 
+    top: 0; 
+    left: 0; 
+    width: 80%;
+  }
+  .Esquema img {
+    width: 100%;
+    max-width: 100%; /
+    height: auto; 
+  }
+  .Esquema2 {
+    position: relative; 
+    top: 0;
+    left: 0; 
+    width: 80%;
+  }
+
+  .Esquema2 img {
+    width: 70%; 
+    max-width: 70%; 
+    height: auto; 
+  }
+
+  .formula-item {
+    width: 90%; /* Adjust width */
+    margin: 10px auto; /* Center horizontally */
+  }
+
+  .Formulas {
+    position: relative;
+    top: -30px; /* Adjust position */
+    left: 0; /* Center horizontally */
+  }
+
+  .Formulas p{
+    position: relative;
+    margin-top: 10px;
+    font-size: small;
+    text-align: center;
+  }
+
+  .Ejemplo {
+    top: 0; /* Adjust position */
+    left: 0; /* Center horizontally */
+    width: 100%;
+  }
+
+  .Ejemplo p{
+    font-size: small;
+    text-align: center;
+  }
+
+
+
